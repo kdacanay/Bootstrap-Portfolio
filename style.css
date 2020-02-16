@@ -15,6 +15,29 @@
     margin-top: 15px;
     margin-bottom: 0px;
 }
+.container .col-md-8 {
+    font-size: 14px;
+}
+.container .col-md-12 {
+    margin-top: 100px;
+    border-color: black;
+    border-style: solid;
+
+}
+.card-text {
+    font-size: 14px;
+}
 .card-img-top {
-    
+    height: 400px;
+}
+
+.flex-container .navbar-brand {
+    display: flex;
+  
+}
+.flex-container .navbar-nav {
+    display: flex;
+    justify-content: end;
+    background-color: #4aaaa5;
+    align-items: flex-end;
 }
