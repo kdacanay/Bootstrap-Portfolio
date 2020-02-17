@@ -19,9 +19,10 @@
     font-size: 14px;
 }
 .container .col-md-12 {
-    margin-top: 100px;
+    margin-top: 75px;
     border-color: black;
     border-style: solid;
+    margin-bottom: 75px;
 
 }
 .card-text {
@@ -30,14 +31,10 @@
 .card-img-top {
     height: 400px;
 }
-
-.flex-container .navbar-brand {
-    display: flex;
-  
+#about-me {
+    border-bottom: solid;
+    padding: 20px;
 }
-.flex-container .navbar-nav {
-    display: flex;
-    justify-content: end;
-    background-color: #4aaaa5;
-    align-items: flex-end;
+.bg-dark text-white mt-4 {
+    position: fixed;
 }
