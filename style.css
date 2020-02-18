@@ -3,7 +3,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.container #main-container {
+.main-container {
     margin-top: 75px;
     border-color: #dddddd;
     border-style: solid;
@@ -15,7 +15,7 @@
     width: 350px;
     margin: 20px;
 }
-#main-header {
+.main-header {
     border-bottom: solid;
     border-color: #dddddd;
     padding: 20px;
@@ -35,7 +35,9 @@
 }
 
 .container {
+    
     background-color: #ffffff;
+    
 }
 p {
     margin: 20px;
@@ -65,16 +67,22 @@ form {
     padding: 10px;
 }
 .card-body {
+    display: flex;
+    align-items: flex-start;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
 }
 .card-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     top: 10px;
     font-weight: bolder;
 }
 .card {
+    display: flex;
     margin: 10px;
 }
