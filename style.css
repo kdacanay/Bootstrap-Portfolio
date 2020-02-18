@@ -65,3 +65,17 @@ footer {
 form {
     padding: 10px;
 }
+.card-body {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+.card-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    top: 10px;
+    font-weight: bolder;
+}
+.card {
+    margin: 10px;
+}
